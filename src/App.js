@@ -60,9 +60,7 @@ setNotes(newNotes);
   
   <NotesList
   
-  notes={notes.filter((note)=>
-    note.text.toLocaleLowerCase().includes(searchText)
-  )}
+  notes={notes}
    handleAddNote={ addNote}
     handleDeleteNote={deleteNote}
   />
